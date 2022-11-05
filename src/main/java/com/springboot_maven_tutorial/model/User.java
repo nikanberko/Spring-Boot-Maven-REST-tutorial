@@ -17,7 +17,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
+    //@Column is a JPA annotation to define a column in a particular database
     @Column(name= "first_name")
     private String firstName;
 
